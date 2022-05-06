@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SingInComponent } from './sing-in.component';
+import { CountryComponent } from './country.component';
 
-describe('SingInComponent', () => {
-  let component: SingInComponent;
-  let fixture: ComponentFixture<SingInComponent>;
+describe('CountryComponent', () => {
+  let component: CountryComponent;
+  let fixture: ComponentFixture<CountryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SingInComponent ]
+      declarations: [ CountryComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SingInComponent);
+    fixture = TestBed.createComponent(CountryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
